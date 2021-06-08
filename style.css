@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    color: blue;
+}
+
+table,
+th,
+td {
+    border: 1px solid red;
+}
+
+.country {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.country button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.country button:hover {
+    background-color: coral;
+    color: violet;
+}
